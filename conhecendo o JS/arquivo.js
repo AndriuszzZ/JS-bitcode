@@ -1,4 +1,4 @@
-let y = 50
+let y = 500
 
 console.log(y)
 console.log(x)
