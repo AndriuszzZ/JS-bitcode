@@ -14,9 +14,9 @@ if (poderDeAtaque > poderDeDefesa && possuiEscudo === "Não") {
     danoCausado = (poderDeAtaque - poderDeDefesa) / 2
 }
 
-pontosDeVida -= dadoCausado
+pontosDeVida -=  danoCausado
 
-alert(atacante + "causou" + danoCausado + " pontos de dano em " + defensor)
+alert(atacante + " causou " + danoCausado + " pontos de dano em " + defensor)
 alert(
     atacante + "\nPoder de ataque: " + poderDeAtaque + "\n\n" +
     defensor + "\n pontos de vida: " + pontosDeVida +
