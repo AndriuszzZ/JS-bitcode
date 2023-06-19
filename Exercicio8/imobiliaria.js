@@ -27,6 +27,9 @@ do {
 
             if (confirmacao) {
                 imoveis.push(imovel)
+                alert("Imóvel salvo com sucesso!")
+            } else {
+                alert("Cadastro cancelado!\nVoltando ao menu de cadastro...")
             }
             break
 
