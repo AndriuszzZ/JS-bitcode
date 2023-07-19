@@ -37,7 +37,7 @@ for (let i = 0; i < lista.length; i++) {
 }
 // Forma funcional
 lista.forEach(exibirElemento)
-
+// Também poderia ser feito:
 lista.forEach(function (elemento, indice, array) {
     console.log({
         elemento,
